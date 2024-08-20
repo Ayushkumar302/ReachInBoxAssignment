@@ -1,6 +1,6 @@
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import { GoogleOAuthProvider } from '@react-oauth/google';
-import { ThemeProvider } from './context/ThemeContext'; // Import the ThemeProvider
+import { ThemeProvider } from './context/ThemeContext'; 
 import Login from './components/Login';
 import OneboxPage from './components/Onebox';
 import Navbar from './components/Navbar';

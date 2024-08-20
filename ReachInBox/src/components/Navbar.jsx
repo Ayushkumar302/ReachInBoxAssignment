@@ -1,4 +1,4 @@
-import { useTheme } from '../context/ThemeContext'; // Adjust path as needed
+import { useTheme } from '../context/ThemeContext'; 
 
 const Navbar = () => {
   const { darkMode, toggleDarkMode } = useTheme();

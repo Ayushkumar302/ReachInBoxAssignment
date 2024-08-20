@@ -1,12 +1,12 @@
 import { GoogleLogin } from '@react-oauth/google';
 import { useNavigate } from 'react-router-dom';
-import logo from '../Images/logo.png'; // Adjust the path to where your logo is stored
+import logo from '../Images/logo.png'; 
 
 const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = (response) => {
-    // Handle successful login and redirect to OneBox page
+    
     navigate('/onebox');
   };
 
@@ -14,7 +14,7 @@ const Login = () => {
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-black">
       {/* Logo */}
       <div className="mb-8">
-        <img src={logo} alt="Company Logo" className="h-24 w-[400px]" /> {/* Adjust size as needed */}
+        <img src={logo} alt="Company Logo" className="h-24 w-[400px]" /> 
       </div>
 
       {/* Login Form */}
